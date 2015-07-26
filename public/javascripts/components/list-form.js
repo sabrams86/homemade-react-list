@@ -7,6 +7,7 @@ ListForm.prototype.render = function (parent) {
   textInput.id = 'text';
   textInput.type = 'text';
   textInput.name = 'item';
+  textInput.focus();
   textInput.placeholder = 'New item...';
   var btn = document.createElement('input');
   btn.type = 'submit'
